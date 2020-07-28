@@ -1,0 +1,16 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login #input{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.login #btnLogin{
+    margin-top: 20px;
+}

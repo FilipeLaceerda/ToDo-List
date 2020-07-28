@@ -1,0 +1,104 @@
+.container {
+    margin: auto;
+    max-width: 600px;
+  }
+  
+  .done {
+    text-decoration: line-through;
+  }
+  
+  form {
+    text-align: center;
+  }
+  
+  input{
+      margin-right: 10px;
+      height: 24px;
+      width: 200px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .item {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    
+  }
+  
+  .card{
+      box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .headerTodo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .addButton{
+    width: 50px;
+    height: 40px;
+    border: none;
+    background-color: skyblue;
+    border-radius: 50px;
+  }
+  
+  .modal{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  
+  .hide{
+    display: none;
+  }
+
+  .editModal{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  .hide{
+    display: none;
+  }
+  
+  
+  .cardModal{
+    padding: 20px;
+    background-color: white;
+  }
+
+
+  
+ 
+
+  
